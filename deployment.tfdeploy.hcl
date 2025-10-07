@@ -14,7 +14,7 @@ store "varset" "tokens" {
 
 deployment "prod-arena" {
   inputs = {
-    bucket_name = "bucket-for-pikachu-vcs"
+    bucket_name = "bucket-for-pikachu-vcs-v2"
     environment = "prod"
     access_key    = store.varset.tokens.AWS_ACCESS_KEY_ID
     secret_key    = store.varset.tokens.AWS_SECRET_ACCESS_KEY
