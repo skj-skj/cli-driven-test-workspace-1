@@ -25,6 +25,6 @@ deployment "prod-arena" {
       Project = "tf-migrage-bugbash"
     }
   }
-  import = true
+  # import = true
 }
 
